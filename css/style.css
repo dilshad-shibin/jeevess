@@ -1,0 +1,80 @@
+.call_btn,
+.whatsapp_btn {
+  width: 40px;
+  display: block;
+  height: 40px;
+  border-radius: 50%;
+  position: fixed;
+  right: 20px;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  transition: all 0.5s ease-out 0s;
+  -webkit-transition: all 0.5s ease-out 0s;
+}
+
+.call_btn {
+  background: #01aef0;
+  bottom: 180px;
+}
+
+.whatsapp_btn {
+  background: #0bb868;
+  bottom: 130px;
+}
+
+.call_btn:before {
+  content: "\f095";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: relative;
+}
+
+.whatsapp_btn:before {
+  content: "\f232";
+  font-family: "Font Awesome 5 Brands";
+  position: relative;
+  top: -1px;
+  left: 1px;
+  font-size: 20px;
+}
+
+.call_btn:hover,
+.whatsapp_btn:hover {
+  background: #021844;
+  color: #fff;
+}
+
+
+.td_full_info ul {
+  list-style: none;
+  padding: 0;
+}
+.td_full_info li {
+  padding-left: 1.3em;
+}
+.td_full_info li:before {
+  content: "\f101"; /* FontAwesome Unicode */
+  font-family: FontAwesome;
+  display: inline-block;
+  margin-left: -1.3em; /* same as padding-left set on li */
+  width: 1.3em; /* same as padding-left set on li */
+}
+
+.comn_img_block h5{
+  color: #fff;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+}
+
+@media(max-width: 575px){
+  .td_large_imag_testi{
+    height: 180px;
+  }
+  .ol_img_res{
+    height: 180px;
+  }
+}

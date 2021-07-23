@@ -1,0 +1,167 @@
+RewriteEngine On
+
+RewriteRule ^naac/([a-zA-Z0-9_-]+)$  naac.php?id=$1
+
+RewriteRule ^blog/([a-zA-Z0-9_-]+)$  news-detail.php?id=$1
+
+RewriteRule ^gallerydetails/([a-zA-Z0-9_-]+)$  gallerydetails.php?id=$1
+
+RewriteRule    ^index?$    index.php    [NC,L]
+
+RewriteRule    ^abhyanga?$    abhyanga.php    [NC,L]
+
+RewriteRule    ^about?$    about.php    [NC,L]
+
+RewriteRule    ^about-related-links?$    about-related-links.php    [NC,L]
+
+RewriteRule    ^agnikarma?$    agnikarma.php    [NC,L]
+
+RewriteRule    ^ahara?$    ahara.php    [NC,L]
+
+RewriteRule    ^annex-cottages?$    annex-cottages.php    [NC,L]
+
+RewriteRule    ^ayurveda-chikitsa?$    ayurveda-chikitsa.php    [NC,L]
+
+RewriteRule    ^bheshajagara?$    bheshajagara.php    [NC,L]
+
+RewriteRule    ^bio-conservative?$    bio-conservative.php    [NC,L]
+
+RewriteRule    ^blog?$    blog.php    [NC,L]
+
+RewriteRule    ^blog-detail?$    blog-detail.php    [NC,L]
+
+RewriteRule    ^charya?$    charya.php    [NC,L]
+
+RewriteRule    ^chikitsa?$    chikitsa.php    [NC,L]
+
+RewriteRule    ^chikitsagaram?$    chikitsagaram.php    [NC,L]
+
+RewriteRule    ^contact?$    contact.php    [NC,L]
+
+RewriteRule    ^diet?$    diet.php    [NC,L]
+
+RewriteRule    ^ear-therapies?$    ear-therapies.php    [NC,L]
+
+RewriteRule    ^fruit-garden?$    fruit-garden.php    [NC,L]
+
+RewriteRule    ^gallery?$    gallery.php    [NC,L]
+
+RewriteRule    ^gandusha?$    gandusha.php    [NC,L]
+
+RewriteRule    ^gynaec-procedures?$    gynaec-procedures.php    [NC,L]
+
+RewriteRule    ^indriya-prasadana?$    indriya-prasadana.php    [NC,L]
+
+RewriteRule    ^jeevess-gallery?$    jeevess-gallery.php    [NC,L]
+
+RewriteRule    ^jeevess-green?$    jeevess-green.php    [NC,L]
+
+RewriteRule    ^jeevess-kalari-chikitsa?$    jeevess-kalari-chikitsa.php    [NC,L]
+
+RewriteRule    ^jeevess-treatments?$    jeevess-treatments.php    [NC,L]
+
+RewriteRule    ^journey-to-jeevess?$    journey-to-jeevess.php    [NC,L]
+
+RewriteRule    ^kalari?$    kalari.php    [NC,L]
+
+RewriteRule    ^kalari-gallery?$    kalari-gallery.php    [NC,L]
+
+RewriteRule    ^ksharakarma?$    ksharakarma.php    [NC,L]
+
+RewriteRule    ^lavanya?$    lavanya.php    [NC,L]
+
+RewriteRule    ^lekhaneeyam?$    lekhaneeyam.php    [NC,L]
+
+RewriteRule    ^living-space?$    living-space.php    [NC,L]
+
+RewriteRule    ^mahanasam-bhojanalaya?$    mahanasam-bhojanalaya.php    [NC,L]
+
+RewriteRule    ^manassanthi?$    manassanthi.php    [NC,L]
+
+RewriteRule    ^manoj-kaloor?$    manoj-kaloor.php    [NC,L]
+
+RewriteRule    ^muhammed-niyas?$    muhammed-niyas.php    [NC,L]
+
+RewriteRule    ^mukta?$    mukta.php    [NC,L]
+
+RewriteRule    ^mukta-lepa?$    mukta-lepa.php    [NC,L]
+
+RewriteRule    ^naseem-mc?$    naseem-mc.php    [NC,L]
+
+RewriteRule    ^nv-sreevaths?$    nv-sreevaths.php    [NC,L]
+
+RewriteRule    ^oil-treatment-on-the-scalp?$    oil-treatment-on-the-scalp.php    [NC,L]
+
+RewriteRule    ^oushada?$    oushada.php    [NC,L]
+
+RewriteRule    ^padam-paddy-fields?$    padam-paddy-fields.php    [NC,L]
+
+RewriteRule    ^panchakarma?$    panchakarma.php    [NC,L]
+
+RewriteRule    ^polyhouse?$    polyhouse.php    [NC,L]
+
+RewriteRule    ^pond?$    pond.php    [NC,L]
+
+RewriteRule    ^poornima-sreelal?$    poornima-sreelal.php    [NC,L]
+
+RewriteRule    ^quick-enquiry-link?$    quick-enquiry-link.php    [NC,L]
+
+RewriteRule    ^rajnwater-harvesting?$    rajnwater-harvesting.php    [NC,L]
+
+RewriteRule    ^rangavedi-amphitheatre?$    rangavedi-amphitheatre.php    [NC,L]
+
+RewriteRule    ^recreation-area-souvenir-shop?$    recreation-area-souvenir-shop.php    [NC,L]
+
+RewriteRule    ^related-ayurveda-chikitsa?$    related-ayurveda-chikitsa.php    [NC,L]
+
+RewriteRule    ^related-post-links?$    related-post-links.php    [NC,L]
+
+RewriteRule    ^related-treatments?$    related-treatments.php    [NC,L]
+
+RewriteRule    ^saheer-ali?$    saheer-ali.php    [NC,L]
+
+RewriteRule    ^sajeev-k-pillai?$    sajeev-k-pillai.php    [NC,L]
+
+RewriteRule    ^send-enquiry?$    send-enquiry.php    [NC,L]
+
+RewriteRule    ^single-cottages?$    single-cottages.php    [NC,L]
+
+RewriteRule    ^snehana?$    snehana.php    [NC,L]
+
+RewriteRule    ^solar-panel?$    solar-panel.php    [NC,L]
+
+RewriteRule    ^sreelal-sankar?$    sreelal-sankar.php    [NC,L]
+
+RewriteRule    ^swastha?$    swastha.php    [NC,L]
+
+RewriteRule    ^swedana?$    swedana.php    [NC,L]
+
+RewriteRule    ^team?$    team.php    [NC,L]
+
+RewriteRule    ^treatments?$    treatments.php    [NC,L]
+
+RewriteRule    ^twin-cottages?$    twin-cottages.php    [NC,L]
+
+RewriteRule    ^udhwarthana?$    udhwarthana.php    [NC,L]
+
+RewriteRule    ^vajee?$    vajee.php    [NC,L]
+
+RewriteRule    ^vegetable-garden?$    vegetable-garden.php    [NC,L]
+
+RewriteRule    ^vihara?$    vihara.php    [NC,L]
+
+RewriteRule    ^watch-tower?$    watch-tower.php    [NC,L]
+
+RewriteRule    ^yoga?$    yoga.php    [NC,L]
+
+RewriteRule    ^youvana?$    youvana.php    [NC,L]
+
+RewriteRule    ^prana?$    prana.php    [NC,L]
+
+RewriteRule    ^eye-therapies?$    eye-therapies.php    [NC,L]
+
+RewriteRule    ^urja?$    urja.php    [NC,L]
+
+ErrorDocument 404 https://jeevess.in
+
+
